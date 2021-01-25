@@ -12,11 +12,11 @@ export default class Ex1Controller extends Controller {
       return 'info';
     }
     else{
-      if(this.MAX-this.content.length >=25 ){
+      if(this.MAX-this.content.length >=20 ){
         return 'warning';
       }
       else{
-        if(this.MAX-this.content.length <25 ){
+        if(this.MAX-this.content.length <20 ){
           return 'danger';
         }
       }

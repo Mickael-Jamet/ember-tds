@@ -3,8 +3,12 @@
   <div class="card-header bg-primary text-light">Ex1 : Note application</div>
   <div class="card-body">
     <Textarea class="form-control mb-3" @value={{this.content}}/>
-    <div class="alert alert-info">Il reste {{this.size}} caractères disponibles.</div>
-    <div class="alert alert-info">{{this.info}}</div>
+    <button type="button" {{on "click" this.save}}>Enregistrer</button>
+    <button type="button" {{on "click" this.clear}}>Effacer</button>
+    <div class="alert alert-{{this.style}}">Il reste {{this.size}} caractères disponibles.</div>
+    {{#if info}}
+      <div class="alert alert-info">{{this.info}}</div>
+    {{/if}}
   </div>
 </div>
 {{outlet}}
