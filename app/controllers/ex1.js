@@ -8,6 +8,19 @@ export default class Ex1Controller extends Controller {
   MAX=100;
 
   get style(){
+    if(this.MAX-this.content.length >=50 ){
+      return 'info';
+    }
+    else{
+      if(this.MAX-this.content.length >=25 ){
+        return 'warning';
+      }
+      else{
+        if(this.MAX-this.content.length <25 ){
+          return 'danger';
+        }
+      }
+    }
   }
 
   get size(){
