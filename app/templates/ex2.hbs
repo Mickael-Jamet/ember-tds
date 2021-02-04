@@ -1,0 +1,8 @@
+{{page-title "Ex2"}}
+<ul class="list-group">
+{{#each @model.services as |service|}}
+  <li class="list-group-item {{if service.active 'active' ''}}" {{action "toggleActive" service}}>{{service.name}} {{service.price}}</li>
+{{/each}}
+</ul>
+{{plural @model.countActive 'Aucun service sélectionné' 'service sélectionné' 'services sélectionnés'}}
+{{outlet}}
