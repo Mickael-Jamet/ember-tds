@@ -1,5 +1,9 @@
 export default class Services{
   services=[];
+  promos={};
+
+  //@tracked codePromo;
+
   constructor(services) {
     this.services=services;
   }
@@ -21,5 +25,13 @@ export default class Services{
       r += s.price;
     });
     return r;
+  }
+
+  get promoTx(){
+    return this.promos[this.codePromo]||'Code Invalide';
+  }
+
+  get montantPromo(){
+    return this.promoTx*this.sumActive;
   }
 }

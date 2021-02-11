@@ -4,6 +4,9 @@
     <list default="true" id="ae9d0671-6512-4581-a88e-399961e48a2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/classes/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/format-currency.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/format-currency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/ex2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/ex2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/ex2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ex2.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/classes/services.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1nYVlXuEq3z52fj45hQdxEZWK0J" />
   <component name="ProjectLevelVcsManager">
@@ -55,7 +61,8 @@
       <workItem from="1612426066496" duration="1030000" />
       <workItem from="1612427117618" duration="1529000" />
       <workItem from="1612428831180" duration="4404000" />
-      <workItem from="1612435206029" duration="1033000" />
+      <workItem from="1612435206029" duration="1642000" />
+      <workItem from="1613027041898" duration="1833000" />
     </task>
     <servers />
   </component>

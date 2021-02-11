@@ -1,22 +1,21 @@
 {{page-title "Ex2"}}
 <h1>Services</h1>
+
 <div class="alert alert-info">
   <span>Choisissez les éléments à inclure</span>
   <p>{{plural @model.countActive 'Aucun service sélectionné' 'service sélectionné' 'services sélectionnés'}}</p>
 </div>
+
 <ul class="list-group">
 {{#each @model.services as |service|}}
-  <li class="list-group-item {{if service.active 'active' ''}}" {{action "toggleActive" service}}>{{service.name}} {{service.price}}</li>
+  <li class="list-group-item {{if service.active 'active' ''}}" {{action "toggleActive" service}}>{{service.name}} {{format-currency service.price}}</li>
 {{/each}}
 </ul>
+
 <div class="total">
-  <!-- Format en currency. -->
   Total: <span class="ng-binding">{{@model.sumActive}}</span>
 </div>
-<div class="input-group">
-      <span class="input-group-addon">
-        <input type="checkbox" aria-label="..." ng-model="ckPromo" ng-click="applyCode()" class="ng-pristine ng-untouched ng-valid">
-      </span>
-  <input type="text" class="form-control ng-pristine ng-valid ng-touched" aria-label="..." ng-model="codePromo" placeholder="Code promo" ng-keyup="applyCode()" style="">
-</div>
+
+<button class="btn btn-primary" {{action "togglePromo"}}>Promotion</button>
+
 {{outlet}}
