@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae9d0671-6512-4581-a88e-399961e48a2e" name="Default Changelist" comment="">
+    <list default="true" id="ae9d0671-6512-4581-a88e-399961e48a2e" name="Default Changelist" comment="correction de l'erreur qui empêchait de retirer l'élement de la liste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +56,17 @@
       <workItem from="1612435206029" duration="1642000" />
       <workItem from="1613027041898" duration="10453000" />
       <workItem from="1613562541458" duration="47000" />
-      <workItem from="1613562648288" duration="1825000" />
+      <workItem from="1613562648288" duration="2321000" />
+      <workItem from="1613567009556" duration="953000" />
     </task>
+    <task id="LOCAL-00001" summary="correction de l'erreur qui empêchait de retirer l'élement de la liste">
+      <created>1613564860377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613564860377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +83,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correction de l'erreur qui empêchait de retirer l'élement de la liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction de l'erreur qui empêchait de retirer l'élement de la liste" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
