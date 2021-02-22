@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9d0671-6512-4581-a88e-399961e48a2e" name="Default Changelist" comment="correction de l'erreur qui empêchait de retirer l'élement de la liste">
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ember-cli-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ember-cli-build.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -64,7 +65,8 @@
       <workItem from="1613027041898" duration="10453000" />
       <workItem from="1613562541458" duration="47000" />
       <workItem from="1613562648288" duration="2321000" />
-      <workItem from="1613567009556" duration="9602000" />
+      <workItem from="1613567009556" duration="9686000" />
+      <workItem from="1613995565694" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="correction de l'erreur qui empêchait de retirer l'élement de la liste">
       <created>1613564860377</created>
