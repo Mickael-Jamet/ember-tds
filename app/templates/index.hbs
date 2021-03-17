@@ -1,2 +1,5 @@
 {{page-title "Index"}}
+<Input @value={{@model.email}}/>
+<Input @value={{@model.password}}/>
+<button {{action "login" @model}}>Se connecter</button>
 {{outlet}}
