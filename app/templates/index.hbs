@@ -1,5 +1,7 @@
 {{page-title "Index"}}
-<Input @value={{@model.email}}/>
-<Input @value={{@model.password}}/>
-<button {{action "login" @model}}>Se connecter</button>
+<form {{action "login" @model on="submit"}}>
+  <Input type="email" @value={{@model.email}} placeholder="Votre email"/>
+  <Input type="password" @value={{@model.password}} placeholder="Votre mot de passe"/>
+  <button type="submit">Se connecter</button>
+</form>
 {{outlet}}
