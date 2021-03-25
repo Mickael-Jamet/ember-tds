@@ -6,9 +6,13 @@ export default class SectionsAddRoute extends Route {
     return {};
   }
 
+  renderTemplate() {
+    this.render({ outlet: 'add' });
+  }
+
   @action
   save(data) {
-    let contact = this.store.createRecord('section', data);
-    contact.save().then(() => this.transitionTo('sections'));
+    let section = this.store.createRecord('section', data);
+    section.save().then(() => this.transitionTo('sections'));
   }
 }

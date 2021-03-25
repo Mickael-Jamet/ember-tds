@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ae9d0671-6512-4581-a88e-399961e48a2e" name="Default Changelist" comment="création du model et des routes, début de categories\add.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/board.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/sections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/sections/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/sections/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/sections/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/sections/edit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,8 @@
       <workItem from="1615553256278" duration="4730000" />
       <workItem from="1616016539846" duration="2474000" />
       <workItem from="1616073716989" duration="4961000" />
-      <workItem from="1616081927519" duration="653000" />
+      <workItem from="1616081927519" duration="841000" />
+      <workItem from="1616682396981" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="correction de l'erreur qui empêchait de retirer l'élement de la liste">
       <created>1613564860377</created>
