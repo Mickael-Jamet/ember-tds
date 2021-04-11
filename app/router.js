@@ -21,4 +21,5 @@ Router.map(function () {
   });
   this.route('abstractroute');
   this.route('order', { path: 'order/:order_id' });
+  this.route('products');
 });

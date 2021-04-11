@@ -6,10 +6,6 @@ export default class SectionsAddRoute extends Route {
     return {};
   }
 
-  renderTemplate() {
-    this.render({ outlet: 'add' });
-  }
-
   @action
   save(data) {
     let section = this.store.createRecord('section', data);
