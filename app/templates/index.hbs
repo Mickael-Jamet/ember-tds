@@ -1,7 +1,16 @@
-{{page-title "Index"}}
-<form {{action "login" @model on="submit"}}>
-  <Input type="email" @value={{@model.email}} placeholder="Votre email"/>
-  <Input type="password" @value={{@model.password}} placeholder="Votre mot de passe"/>
-  <button type="submit">Se connecter</button>
-</form>
-{{outlet}}
+<div class="container-md">
+  <br>
+  <h2>Connection</h2>
+  <form class="ui form" {{ action "login" @model on="submit" }}>
+    <div class="form-group">
+      <label>Email</label>
+      <Input type="email" class="form-control" @value={{@model.email}} placeholder="Votre email"/>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <Input type="password" class="form-control" @value={{@model.password}} placeholder="Votre mot de passe"/>
+    </div>
+    <br><br>
+    <button class="btn btn-primary" type="submit">Se connecter</button>
+  </form>
+</div>

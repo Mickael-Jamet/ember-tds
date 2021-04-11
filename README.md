@@ -1,7 +1,7 @@
 # tds
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ce projet consiste à créer une application web permettant aux commerçants de gérer leur magasin et les différentes commandes des clients. 
+Ce projet utilise le framework Ember-JS.
 
 ## Prerequisites
 

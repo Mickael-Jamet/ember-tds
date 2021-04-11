@@ -21,7 +21,9 @@ Router.map(function () {
   });
   this.route('abstractroute');
   this.route('order', { path: 'order/:order_id' });
-  this.route('products');
+  this.route('products', function() {
+    this.route('add');
+  });
   this.route('myOrders', function() {
     this.route('prepare', function() {
       this.route('cancel');

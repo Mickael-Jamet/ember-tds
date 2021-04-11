@@ -1,18 +1,20 @@
 {{page-title "Sections"}}
 <div class="container">
   <h2>Gestion des sections</h2>
+  <LinkTo class="ui right floated gray button" @route="board">Board</LinkTo>
   <div class="form-group">
     <p>
-      <button class="btn btn-primary">Nouvelle section...</button>
-      <button  class="btn btn-primary">Nouveau Produit...</button>
+      <LinkTo class="ui floated green button" @route="sections.add" >Nouvelle section...</LinkTo>
+      <LinkTo class="ui floated green button" @route="sections.addProduct" >Nouveau Produit...</LinkTo>
     </p>
-    <label>Sections</label>
   </div>
+  <h3>Sections</h3>
   <table class="table table-striped"><br>
     <tbody>
     {{#each @model as |section|}}
       <tr>
-        <td>{{ section.name}} ................... </td>
+        <td>{{ section.name}}</td>
+        <td> ................... </td>
         <td>{{ section.products.length }}</td>
         <td><button class="ui black button">Editer...</button></td>
         <td><button class="ui red button">Supprimer</button></td>

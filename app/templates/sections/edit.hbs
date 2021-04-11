@@ -1,2 +1,26 @@
 {{page-title "Edit"}}
+<div class="ui attached segment">
+  Gestion de section : {{@model.name}}
+  <LinkTo class="ui right floated black button" @route="board">Board</LinkTo>
+  <LinkTo class="ui right floated black button" @route="sections.index">Retour aux sections</LinkTo>
+</div>
+
+<div class="ui attached green segment">
+  <LinkTo class="btn btn-success" @route="sections.edit.addProduct" @model={{@model.id}}>Ajouter un produit</LinkTo>
+</div>
+
+<table class="table table-striped"><br>
+  <tbody>
+    {{#each @model.products as |product|}}
+      <tr>
+        <td>{{product.name}} {{outlet product.id}}</td>
+        <td>{{product.price}}</td>
+        <td>
+          <button class="btn btn-primary" {{ action "edit" @model.id product.id}}><i class="far fa-edit"></i></button>
+          <button class="btn btn-secondary" {{ action "delete" product @model}}><i class="far fa-trash-alt"></i></button>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
 {{outlet}}
